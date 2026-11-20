@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juliemar A. Pecore | Portfolio</title>
+  <meta name="description" content="Portfolio of Juliemar A. Pecore - BSIT Student, Web & Mobile Developer, Animator & Graphic Designer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d3b2e'/><text x='50' y='65' font-size='45' text-anchor='middle' fill='%23f0c14b' font-family='Arial' font-weight='bold'>JP</text></svg>">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="logo-badge">JP</span>
+        <span class="logo-text">Juliemar</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">home</a></li>
+          <li class="nav__item"><a href="#works" class="nav__link">works</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">skills</a></li>
+          <li class="nav__item"><a href="#status" class="nav__link">status</a></li>
+          <li class="nav__item"><a href="#location" class="nav__link">location</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">about</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
+        </ul>
+        <button class="nav__close" id="nav-close" type="button" aria-label="Close navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="nav__social">
+          <p>Social links</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-btn">FB</a>
+            <a href="#" aria-label="Instagram" class="social-btn">IG</a>
+            <a href="#" aria-label="GitHub" class="social-btn">GH</a>
+            <a href="#" aria-label="LinkedIn" class="social-btn">IN</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="section home" id="home">
+      <div class="home__container container">
+        <div class="home__content">
+          <p class="home__greeting">Hello, I'm</p>
+          <h1 class="home__title">Juliemar Pecore</h1>
+          <p class="home__subtitle">BSIT Student  |  Web & Mobile Developer</p>
+          <p class="home__tagline">I build simple, useful systems for real people.</p>
+          
+          <div class="home__buttons">
+            <a href="#works" class="btn btn--primary">View Works</a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+
+          <div class="home__stats">
+            <div class="stat-card">
+              <span class="stat-number">3rd</span>
+              <span class="stat-label">Year</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Skills</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__photo-wrap">
+          <div class="home__photo-ring">
+            <div class="home__photo">
+              <!-- Replace photo.jpg with your actual photo -->
+              <img src="img/photo.jpg" alt="Juliemar A. Pecore" onerror="this.style.display='none'; this.parentElement.classList.add('photo-fallback');">
+              <span class="photo-initials">JP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">About Me</h2>
+          <p class="section__subtitle">Who I am</p>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__left">
+            <div class="about__photo">
+              <img src="img/photo.jpg" alt="Juliemar A. Pecore" onerror="this.style.display='none'; this.parentElement.classList.add('photo-fallback');">
+              <span class="photo-initials">JP</span>
+            </div>
+            <div class="about__info">
+              <p><strong>Name:</strong> Juliemar A. Pecore</p>
+              <p><strong>Age:</strong> 22 years old</p>
+              <p><strong>Course:</strong> BSIT, 3rd Year</p>
+              <p><strong>Section:</strong> C</p>
+              <p><strong>School:</strong> NORSU Bayawan-Sta. Catalina</p>
+            </div>
+          </div>
+
+          <div class="about__right">
+            <h3 class="about__bio-title">Bio</h3>
+            <p class="about__bio">
+              I'm a passionate 3rd-year BSIT student who loves turning ideas into real, useful systems. 
+              Whether it's crafting smooth web experiences, designing interfaces, animating stories, 
+              or building games, I enjoy creating things that help people. Always curious, always learning.
+            </p>
+
+            <div class="about__interests">
+              <h4>Interests</h4>
+              <div class="interest-tags">
+                <span class="tag">Web</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">UI Design</span>
+                <span class="tag">Animation</span>
+                <span class="tag">Game Dev</span>
+                <span class="tag">Databases</span>
+              </div>
+            </div>
+
+            <a href="#" class="btn btn--primary" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">What I can do</p>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skills__bars">
+            <div class="skill-item" data-percent="90">
+              <div class="skill-info">
+                <span>HTML / CSS</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="80">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="75">
+              <div class="skill-info">
+                <span>Graphic Design / Animation</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="70">
+              <div class="skill-info">
+                <span>Web Development</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="65">
+              <div class="skill-info">
+                <span>Android (Java/Kotlin)</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="70">
+              <div class="skill-info">
+                <span>Database (MySQL)</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="60">
+              <div class="skill-info">
+                <span>Game Development</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="75">
+              <div class="skill-info">
+                <span>Problem Solving & Troubleshooting</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="65">
+              <div class="skill-info">
+                <span>Networking</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-percent="80">
+              <div class="skill-info">
+                <span>Diagrams (draw.io)</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+
+          <div class="skills__tools">
+            <h3>Tools I Use</h3>
+            <div class="tools-grid">
+              <span class="tool-chip">VS Code</span>
+              <span class="tool-chip">Android Studio</span>
+              <span class="tool-chip">Git</span>
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">Photoshop</span>
+              <span class="tool-chip">After Effects</span>
+              <span class="tool-chip">draw.io</span>
+              <span class="tool-chip">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="section works" id="works">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">My Works</h2>
+          <p class="section__subtitle">Projects & activities</p>
+        </div>
+
+        <div class="works__carousel">
+          <div class="carousel-track">
+            <article class="project-card">
+              <div class="project-thumb project-thumb--1">
+                <div class="project-icon">🖥️</div>
+                <span class="project-badge">Capstone</span>
+              </div>
+              <div class="project-info">
+                <h3>NORSU Student Portal</h3>
+                <p>Web-based enrollment & student information system for NORSU Bayawan-Sta. Catalina. Handles registration, grades viewing, and class schedules.</p>
+                <div class="project-tags">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                  <span>MySQL</span>
+                  <span>PHP</span>
+                </div>
+                <a href="#" class="project-link">View Project <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb project-thumb--2">
+                <div class="project-icon">📱</div>
+                <span class="project-badge">Mobile</span>
+              </div>
+              <div class="project-info">
+                <h3>CampusGo App</h3>
+                <p>Android companion app for students — class reminders, campus map, announcement feed, and simple attendance check-in.</p>
+                <div class="project-tags">
+                  <span>Java</span>
+                  <span>Kotlin</span>
+                  <span>Android Studio</span>
+                </div>
+                <a href="#" class="project-link">View Project <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb project-thumb--3">
+                <div class="project-icon">🎮</div>
+                <span class="project-badge">Game / Design</span>
+              </div>
+              <div class="project-info">
+                <h3>Pixel Quest Mini-Game</h3>
+                <p>2D side-scrolling browser game with custom pixel art, simple physics, and score system. Built as a creative coding project.</p>
+                <div class="project-tags">
+                  <span>JavaScript</span>
+                  <span>Canvas</span>
+                  <span>Animation</span>
+                </div>
+                <a href="#" class="project-link">View Project <span>→</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn prev" aria-label="Previous">‹</button>
+            <div class="carousel-dots"></div>
+            <button class="carousel-btn next" aria-label="Next">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATUS -->
+    <section class="section status" id="status">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Status</h2>
+          <p class="section__subtitle">Where I am right now</p>
+        </div>
+
+        <div class="status__content">
+          <div class="status-badge">
+            <span class="badge-dot"></span>
+            Open for internship / OJT
+          </div>
+          <p class="status-note">Edit this badge anytime you like</p>
+
+          <div class="timeline">
+            <div class="timeline-item active">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2026</span>
+                <p>3rd Year, BSIT - Section C</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2026</span>
+                <p>Seminar & Field Trips</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2026</span>
+                <p>Capstone defense prep</p>
+              </div>
+            </div>
+            <div class="timeline-item next">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Next</span>
+                <p>Internship / graduation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section location" id="location">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Location</h2>
+          <p class="section__subtitle">Where to find me</p>
+        </div>
+
+        <div class="location__grid">
+          <div class="location__map">
+            <iframe 
+              src="https://maps.google.com/maps?q=9.3524814,122.8373582&z=15&output=embed" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="NORSU Bayawan-Sta. Catalina Campus">
+            </iframe>
+          </div>
+          <div class="location__info">
+            <h3>NORSU Bayawan-Sta. Catalina</h3>
+            <p>National Road, Caranoche<br>Santa Catalina / Bayawan City<br>Negros Oriental, Philippines</p>
+            <a href="https://www.google.com/maps?q=9.3524814,122.8373582" target="_blank" rel="noopener" class="btn btn--primary">Open in Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__subtitle">Let's talk</p>
+        </div>
+
+        <div class="contact__grid">
+          <form class="contact__form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          </form>
+
+          <div class="contact__social">
+            <p>or reach me on</p>
+            <div class="social-links large">
+              <a href="#" aria-label="Facebook" class="social-btn">FB</a>
+              <a href="#" aria-label="Instagram" class="social-btn">IG</a>
+              <a href="#" aria-label="GitHub" class="social-btn">GH</a>
+              <a href="#" aria-label="LinkedIn" class="social-btn">IN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Juliemar A. Pecore  |  NORSU Bayawan-Sta. Catalina</p>
+    </div>
+  </footer>
+
+  <!-- Toast for form -->
+  <div class="toast" id="toast">Message sent! (Demo only)</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
